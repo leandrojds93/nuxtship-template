@@ -1,39 +1,39 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Flexibilidade de acesso",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
+      "Com o IPTV, você pode acessar o conteúdo em diversos dispositivos.",
     icon: "bx:bxs-briefcase",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Qualidade de imagem e som",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "O IPTV oferece uma experiência de visualização de alta qualidade, com suporte para crianças e vídeos em alta definição (UHD).",
     icon: "bx:bxs-window-alt",
   },
   {
-    title: "On-Demand Components",
+    title: "Estabilidade de sinal",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
+      "O IPTV depende de uma conexão estável com a internet para funcionar corretamente.",
     icon: "bx:bxs-data",
   },
   {
-    title: "Broad Integration",
+    title: "Variedade de conteúdo",
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
+      "O IPTV oferece uma ampla variedade de conteúdo, incluindo filmes, programas de TV, esportes e muito mais.",
     icon: "bx:bxs-bot",
   },
   {
-    title: "SEO Enabled",
+    title: "Encontre o que você procura",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
+      "O IPTV oferece uma interface de usuário intuitiva que facilita a localização do conteúdo desejado.",
     icon: "bx:bxs-file-find",
   },
   {
-    title: "Community",
+    title: "Recursos interativos",
     description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
+      "Oferecemos recursos interativos, como pausa, retrocesso e gravação de programas ao vivo.",
     icon: "bx:bxs-user",
   },
 ];
@@ -42,11 +42,11 @@ const features = [
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Streaming de qualidade para você e sua família
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Assista o que quisere quando quiser, com qualidade e estabilidade
+      o melhor serviço de Streaming do Brasil.
     </p>
   </div>
 

@@ -1,19 +1,19 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
+    title: "Solicitar Teste",
+    path: "https://wa.me/5534984164210?text=Solicitar%20teste%20gr%C3%A1tis!",
   },
   {
-    title: "Pricing",
+    title: "Planos & Valores",
     path: "/pricing",
   },
+  // {
+  //   title: "About",
+  //   path: "/about",
+  // },
   {
-    title: "About",
-    path: "/about",
-  },
-  {
-    title: "Contact",
+    title: "Contato / Suporte",
     path: "/contact",
   },
 ];
@@ -26,8 +26,8 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Nuxt</span
-          ><span class="text-slate-500">ship</span>
+          ><span class="font-bold text-slate-800">Leandro</span
+          ><span class="text-slate-500">TV</span>
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
@@ -67,17 +67,11 @@ const open = ref(false);
             </a>
           </li>
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4">
-          <LandingLink href="#" styleName="muted" block size="md"
-            >Log in</LandingLink
-          >
-          <LandingLink href="#" size="md" block>Sign up</LandingLink>
-        </div>
       </nav>
       <div>
         <div class="hidden lg:flex items-center gap-4">
-          <a href="#">Log in</a>
-          <LandingLink href="#" size="md">Sign up</LandingLink>
+          <a href="#">Avisos</a>
+          <LandingLink href="#" size="md">Play Store</LandingLink>
         </div>
       </div>
     </header>

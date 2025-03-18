@@ -5,59 +5,54 @@ definePageMeta({
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
+    name: "Mensal",
+    price: "R$25,00",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Nuxt Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "Mensal",
+      "Conexão Simultânea: 01",
+      "Canais: SD HD FHD 4K",
+      "Filmes e Séries On Demand",
+      "Suporte sob demanda",
+      "Sistema anti-travas",
     ],
     button: {
-      text: "Get Started",
+      text: "ASSINAR",
       link: "/",
     },
   },
   {
-    name: "Startup",
-    price: {
-      monthly: "$19",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
-    },
+    name: "Trimestral",
+    price: "R$59,99",
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "Três mêses",
+      "Conexão Simultânea: 03",
+      "Canais: SD HD FHD 4K",
+      "Filmes e Séries On Demand",
+      "Suporte diario",
+      "Sistema anti-travas",
     ],
     button: {
-      text: "Get Started",
+      text: "ASSINAR",
       link: "#",
     },
   },
   {
-    name: "Enterprise",
-    price: "Custom",
-    popular: false,
+    name: "Anual",
+    price: "R$199,99",
+    popular: true,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Doze mêses",
+      "Conexão Simultânea: 03",
+      "Canais: SD HD FHD 4K",
+      "Filmes e Séries On Demand",
+      "Suporte diario + 3 Servidores",
+      "Sistema anti-travas",
     ],
     button: {
-      text: "Contact us",
-      link: "/contact",
+      text: "ASSINAR",
+      link: "#",
     },
   },
 ];
@@ -66,9 +61,9 @@ const pricing = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Pricing</template>
+      <template v-slot:title>Valores</template>
       <template v-slot:desc
-        >Simple & Predictable pricing. No Surprises.</template
+        >Valores fixos de acordo com o plano contratado.</template
       >
     </LandingSectionhead>
 

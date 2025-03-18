@@ -39,7 +39,7 @@ defineProps(["plan"]);
           block
           :styleName="plan.popular ? 'primary' : 'outline'"
         >
-          {{ plan.button.text || "Get Started" }}
+          {{ plan.button.text || "Planos" }}
         </LandingLink>
       </div>
     </div>

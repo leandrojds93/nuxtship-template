@@ -7,28 +7,30 @@ definePageMeta({
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Contact</template>
-      <template v-slot:desc>I am here to help.</template>
+      <template v-slot:title>Suporte / Contato</template>
+      <template v-slot:desc>Entre em contato conosco preenchendo o formulário abaixo.</template>
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16">
       <div>
         <h2 class="font-medium text-2xl text-gray-800">
-          Contact Nuxtship Creator
+          Para atendimento imediato
         </h2>
         <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Have something to say? I am here to help. Fill up the form or send
-          email.
+          Entre em contato atavés do whatsapp:
+          <a href="https://wa.me/5534984164210" class="text-blue-500">+5534984164210</a> ou ligue para
+          (34) 9 8416-4210.
+          Atendimento de segunda a sexta das 8h às 18h.
         </p>
         <div class="mt-5">
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>1010 Vienna, Austria</span>
+            <span>Monte Carmelo - MG, Brasil</span>
           </div>
           <div class="flex items-center mt-2 space-x-2 text-gray-600">
             <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
-              href="mailto:jakobaichmayr@gmail.com"
-              >jakobaichmayr@gmail.com</a
+              href="mailto:leandro.junio.duarte@gmail.com"
+              >leandro.junio.duarte@gmail.com</a
             >
           </div>
           <!-- <div class="flex items-center mt-2 space-x-2 text-gray-600">
